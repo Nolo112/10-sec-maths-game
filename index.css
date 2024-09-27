@@ -1,0 +1,84 @@
+body {
+  background-color: #f0f8ff;
+  font-family: 'Arial', sans-serif;
+
+  background-image: url("file:///C:/Users/novic/Downloads/background-5594879_1280.jpg"); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  margin: 0; 
+}
+
+.container {
+  color: white; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  padding: 20px; 
+  background-color: rgba(0, 0, 0, 0.3); 
+  border-radius: 10px; 
+  height: 100vh; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;
+}
+
+h2, h3, h4 {
+  margin: 10px 0;
+}
+
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  font-style: oblique;
+  color: rgba(0, 217, 255, 0.749);
+  margin-top: 10px;
+}
+
+#equation {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+#user-input {
+  display: block;
+  width: 20%;
+  margin: 0 auto 20px auto;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+h3, h4 {
+  text-align: center;
+}
+
+#time-left {
+  font-size: 24px;
+  color: #ff4500;
+}
+
+#score, #high-score {
+  font-weight: bold;
+  color: #28a745;
+}
+
+input {
+  background-color: rgba(255, 255, 255, 0.8); 
+  color: black; 
+  border: 2px solid #ccc; 
+  border-radius: 5px; 
+  padding: 10px; 
+  font-size: 18px; 
+  width: 100%; 
+  max-width: 300px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+}
+
+input:focus {
+  outline: none; 
+  border-color: #007bff; 
+}
